@@ -2,6 +2,8 @@
     --cor-um: #5300c8;
     --cor-dois: #03318c;
     --cor-tres: #FFFFFF;
+    --cor-quatro: #aaa7a7;
+    --cor-cinco: #000000;
 
     --fonte-principal: "Press Start 2P", system-ui;
     --fonte-secundaria: "IBM Plex Mono", system-ui;
@@ -19,6 +21,30 @@
 .titulo {
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
+}
+
+.mostruario__itens {
+    border-radius: 10px;
+    box-shadow:-5px 5px 3px  var(--cor-quatro);
+
+}
+
+.mostruario__itens__card {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-tres);
+    background-color: var(--cor-um);
+    border: solid var(--cor-cinco) 3px;
+    border-radius: 10px;
+}
+
+.card__imagens {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5px;
+}
+
+.card__lixo {
+    filter: invert(100%);
 }
 
 .formulario__campo {
