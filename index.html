@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/flex.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Document</title>
+
+    <title>AluraGeek</title>
 </head>
 <body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="./img/Property 1=Black.svg" alt="Logo AluraGeek">
+    </header>
+    <main class="conteudo">
+        <section class="mostruario">
+            <h1 class="titulo">MEUS PRODUTOS:</h1>
+        </section>
+        <section class="formulario">
+            <h1 class="titulo">ADICIONAR PRODUTO:</h1>
+            <form class="formulario__form">
+                <input class="formulario__campo" type="text" name="nome" placeholder="nome..." required />
+                <input class="formulario__campo" type="text" name="valor" placeholder="valor..." required/>
+                <input class="formulario__campo" type="url" name="imagem" placeholder="imagem..." required/>
+                <div class="formulario__botoes">
+                    <button class="formulario__botoes__guardar">Guardar</button>
+                    <button class="formulario__botoes__limpar">Limpar</button>
+                </div>
+            </form>
+            
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>

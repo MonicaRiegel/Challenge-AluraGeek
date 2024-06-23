@@ -1,0 +1,50 @@
+:root {
+    --cor-um: #5300c8;
+    --cor-dois: #03318c;
+    --cor-tres: #FFFFFF;
+
+    --fonte-principal: "Press Start 2P", system-ui;
+    --fonte-secundaria: "IBM Plex Mono", system-ui;
+}
+
+.cabecalho {
+    background-color: var(--cor-um);
+}
+
+.cabecalho__logo {
+    width: 374px;
+    height: 56px;
+}
+
+.titulo {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+}
+
+.formulario__campo {
+    width: 392px;
+    height: 58px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    border: solid var(--cor-dois) 1px;
+    border-radius: 100px;
+}
+
+.formulario__botoes {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+}
+
+.formulario__botoes__guardar {
+    width: 500px;
+    background-color: var(--cor-dois);
+    color: var(--cor-tres);
+    border: solid var(--cor-dois) 1px;
+    border-radius: 50px;
+}
+
+.formulario__botoes__limpar {
+    width: 500px;
+    border: solid var(--cor-dois) 1px;
+    border-radius: 50px;
+}
