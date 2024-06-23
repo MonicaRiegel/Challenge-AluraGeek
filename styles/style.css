@@ -22,8 +22,8 @@
 }
 
 .formulario__campo {
-    width: 392px;
-    height: 58px;
+    width: 100%;
+    height: 3rem;
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
     border: solid var(--cor-dois) 1px;
@@ -33,20 +33,22 @@
 .formulario__botoes {
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
+    width: 20rem;
+    height: 4rem;
 }
 
 .formulario__botoes__guardar {
-    width: 500px;
+    width: 50%;
     background-color: var(--cor-dois);
     color: var(--cor-tres);
     border: solid var(--cor-dois) 1px;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .formulario__botoes__limpar {
-    width: 500px;
+    width: 50%;
     border: solid var(--cor-dois) 1px;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 
