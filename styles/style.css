@@ -48,3 +48,10 @@
     border: solid var(--cor-dois) 1px;
     border-radius: 50px;
 }
+
+
+.rodape {
+    background-color: var(--cor-um);
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+}

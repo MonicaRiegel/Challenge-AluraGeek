@@ -52,3 +52,13 @@
     padding: 0px 65px 0px 65px;
     gap: 13px;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 232px;
+    padding: 64px;
+}
