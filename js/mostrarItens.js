@@ -19,7 +19,7 @@ function constroiCard(imagem, nome, valor) {
 async function listaItens() {
     const listaApi = await conectaApi.listaItens();
     listaApi.forEach(elemento => lista.appendChild(
-        constroiCard(elemento.imagem, elemento.nome, elemento.valo)));
+        constroiCard(elemento.imagem, elemento.nome, elemento.valor)));
 }
 
 listaItens();

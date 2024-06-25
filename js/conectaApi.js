@@ -14,7 +14,7 @@ async function criaItem(imagem, nome, valor) {
         body: JSON.stringify({
             imagem: imagem,
             nome: nome,
-            valor: valor
+            valor: `$ ${valor}`
         })
     });
 
