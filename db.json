@@ -4,8 +4,7 @@
       "id": "1",
       "imagem": "./img/image 2.png",
       "nome": "Stormtrooper",
-      "valor": "$ 60,00",
-      "lixo": "./img/lixo.png"
+      "valor": "$ 60,00"
     },
     {
       "id": "2",
