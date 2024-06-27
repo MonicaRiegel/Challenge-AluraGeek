@@ -3,7 +3,6 @@ import { conectaApi } from "./conectaApi.js";
 const lista = document.querySelector("[data-lista]");
 
 async function deletarItem(id) {
-
     if (confirm("Remover produto?")) {
         try{
             await conectaApi.deletaItem(id);
@@ -17,7 +16,6 @@ async function deletarItem(id) {
             alert('Não foi possivel deletar o produto, tente novamente mais tarde.');
         }     
     }
-    
 }
 
 function constroiCard(imagem, nome, valor, id) {
@@ -33,12 +31,8 @@ function constroiCard(imagem, nome, valor, id) {
                         </div>
                     </div>`
 
-    
-
 const lixeira = item.querySelector(".card__lixo");
 lixeira.addEventListener('click', () => deletarItem(id));   
-
-    
 
     return item;
 }
