@@ -53,12 +53,6 @@
       "imagem": "./img/image 2.png",
       "nome": "Stormtrooper",
       "valor": "$ 60,00"
-    },
-    {
-      "id": "30d8",
-      "imagem": "https://purr.objects-us-east-1.dream.oi/i/OoNx6.jpg",
-      "nome": "Game Boy Classic",
-      "valor": "$ 89"
     }
   ]
 }
