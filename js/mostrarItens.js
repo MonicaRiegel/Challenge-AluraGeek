@@ -25,9 +25,7 @@ function constroiCard(imagem, nome, valor, id) {
                         <p class="card__nome">${nome}</p>
                         <div class="card__inf">
                             <p class="card__valor>">${valor}</p>
-                            <button class="card__lixo" data-id="${id}">
-                                <img src="./img/lixo.png" alt="icone lixeira" height="16px"/>
-                            </button>
+                            <button class="card__lixo" data-id="${id}"></button>
                         </div>
                     </div>`
 
