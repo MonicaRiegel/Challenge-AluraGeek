@@ -44,7 +44,6 @@
 }
 
 .card__lixo {
-    height: 1rem;
     filter: invert(100%);
 }
 
