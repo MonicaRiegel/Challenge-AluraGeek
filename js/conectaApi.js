@@ -22,7 +22,20 @@ async function criaItem(imagem, nome, valor) {
     return conexaoConvertida;
 }
 
+async function deletaItem(id) {
+    const conexao = await fetch(`http://localhost:3000/itens/${id}`, {
+        method: "DELETE"
+    })
+    if(!conexao.ok) {
+        throw new Error('Erro ao deletar produto');
+    } else {
+    return conexao.json();
+    }
+}
+
+
 export const conectaApi = {
     listaItens,
-    criaItem
+    criaItem,
+    deletaItem
 }
